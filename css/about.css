@@ -1,0 +1,161 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(61, 102, 107);
+    color: white; 
+    font-family: Montserrat;
+ }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(3, 35, 63)
+    
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0 23px;
+    
+    }
+    
+    nav ul li a{
+        list-style: none;
+        margin: 0 23px;
+        text-decoration: none;
+        color: white;
+    
+    }
+    nav ul li a:hover{
+       color: rgb(149, 149, 233);
+       font-size: 1.02rem;
+    }
+    
+    .left{
+        font-size: 2rem;
+        color:black;
+        background-color: rgb(205, 137, 13);
+        font-weight: 900;
+
+
+        
+
+img {
+  max-width: 100%;
+  max-height:100%;
+}
+
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 1%;
+    float: left;
+  }
+}
+
+  
+  img {
+    
+    max-width: 81%;
+    float: left;
+    margin-right: 40px;
+    
+  }
+  
+.button-36 {
+    background-image: linear-gradient(92.88deg, #245469 9.16%, #1d3c70 43.89%, #24438bd3 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 20px;
+    margin-left: 2px;
+  }
+  
+  .button-36:hover {
+    box-shadow: rgb(13, 121, 129) 0 1px 30px;
+    transition-duration: .1s;
+  }
+  
+  @media (min-width: 768px) {
+    .button-36 {
+      padding: 0 2.6rem;
+    }
+  }
+
+  .fa {
+    padding: 20px;
+    
+    
+    text-align: center;
+    text-decoration:none;
+    border-radius: 90%;
+
+    margin-left: 60px;
+    
+   
+    
+  }
+  p{
+    color: white;
+    font-size: 19px;
+    font-style: italic;
+    height: fit-content;
+    margin-top: 20px
+
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #6c8fbc;
+  color: white;
+  margin-top: 40px;
+  
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-left: 90px;
+}
+.fa-github {
+    background: black;
+    color: white;
+    margin-left: 90px;
+  }
+  .fa-instagram{
+    background: rgb(229, 114, 114);
+    color: white;
+    margin-left: 90px;
+  }
+  h1{
+    color: #55ACEE;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  h4{
+    color: rgba(0, 217, 255, 0.835);
+  }
