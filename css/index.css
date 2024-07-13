@@ -4,9 +4,10 @@
     padding: 0;
 }
 body{
-    background-color: rgb(1, 39, 44);
-    color: white; 
-    font-family: Montserrat;
+    background-color: rgba(255, 223, 164, 0.307);
+    color: rgb(24, 2, 2); 
+    font-family:'Times New Roman', Times, serif;
+    
 
 }
 nav{
@@ -14,7 +15,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 60px;
-    background-color: rgb(3, 35, 63)
+    background-color:  rgba(203, 139, 21, 0.61)
 
 }
 nav ul{
@@ -31,7 +32,7 @@ nav ul li a{
     list-style: none;
     margin: 0 23px;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 
 }
 nav ul li a:hover{
@@ -41,8 +42,8 @@ nav ul li a:hover{
 
 .left{
     font-size: 2rem;
-    color:black;
-    background-color: rgb(205, 137, 13);
+    color:rgb(255, 18, 18);
+    background-color: rgba(183, 205, 13, 0);
     font-weight: 900;
 
     
@@ -64,17 +65,40 @@ nav ul li a:hover{
 .leftsection{
     
     
-    font-size: 2.5rem;
-    margin: 90px 0;
+    font-size: 3.5rem;
+    margin: 10px 0;
+  
+
+    
+    
+    
+   
+  
  
     
 }
 
+
+
+p1{
+    color:gray;
+    font-weight:100;
+    font-family:Cabin Sketch;
+    font-size: 25px;
+}
+p{
+    color: black;
+      font-family: 'Cabin Sketch';
+    font-size: 40px;
+    font-weight: bolder;
+}
    
 
 .rightsection{
     
     width: 600px;
+    margin-top: 0px;
+    margin-right: px;
    
 
 }
