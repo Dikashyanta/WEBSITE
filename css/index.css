@@ -116,7 +116,7 @@ p{
 .secondSection{
     max-width: 80vw;
     margin: auto;
-    height: 80vh;
+    height: 30vh;
 }
 .secondSection h1{
     font-size: 1.9rem;
@@ -141,3 +141,10 @@ main hr{
     color: gray;
     font-style: italic;
 }
+.background-clip{
+    position: absolute;
+   
+    z-index: -1;
+}
+
+
